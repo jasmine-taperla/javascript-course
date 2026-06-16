@@ -4,7 +4,8 @@
 - Lesson 4: HTML & JavaScript Basics
 - Lesson 5: Variables
 - Lesson 5 Exercises
-- Lesson 6: Booleans
+- Lesson 6: Booleans and If-Statements
 
 ## Projects
 - Calculator
+- Rock Paper Scissors
