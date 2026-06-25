@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 6 Exercises</title>
+    
+  </head>
+  <body>
+    <script>
+      let hour = 8;
+      const name = 'Jasmine'
+
+      if (hour <=6 && hour >=12 ){
+        console.log(`Good Morning ${name}!`)
+      } else if (hour <=13 && hour >=17){
+        console.log(`Good afternoon ${name}`)
+      } else {
+        console.log(`Good night ${name}!`)
+      }
+
+      const age = 67;
+      const isHoliday = true;
+
+      if ((age <= 6 || age >= 65) && !isHoliday){
+        console.log('Discount applied. Congrats!')
+      } else {
+        console.log('No discount.')
+      }
+
+      /* Another way to write as ?: is
+      const age = 67
+      const isHoliday = true;
+
+      console.log(
+        ((age <=6 || age >=65) && !isHoliday)
+        ? 'Discount applied. COngrats!'
+        : 'No discount.'
+      */
+    </script>
+  </body>
+</html>
